@@ -29,35 +29,6 @@ img {
     display: flex;
 }
 
-
-.h100{
-    height: 100%;
-}
-
-.w20{
-    width: 20%;
-}
-
-.w25{
-    width: 25%;
-
-}
-.w40{
-    width: 40%;
-}
-
-.w60{
-    width: 60%;
-}
-
-
-.def-height{
-    height: 350px;
-}
-
-.big-height{
-    height: 450px;
-}
     /* color */
 
     .yellow{
@@ -88,6 +59,10 @@ img {
         background-color: purple;
     }
 
+    .black-blue{
+        background-color: #23272A;
+    }
+
 /* header */
 
 .intestat{
@@ -113,3 +88,56 @@ img {
     margin: 5px;
 }
 
+/* main */
+
+
+.h100{
+    height: 100%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w25{
+    width: 25%;
+
+}
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+
+
+.def-height{
+    height: 350px;
+}
+
+.big-height{
+    height: 450px;
+}
+
+
+/* footer */
+
+.footer{
+    border-bottom: gray solid 5px ;
+    border-top: gray solid 5px ;
+    height: 80px;
+}
+
+.flex-foot{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.car-foot{
+    padding: 5px 20px;
+}
+
+    
+    
