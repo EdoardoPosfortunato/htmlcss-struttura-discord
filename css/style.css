@@ -65,28 +65,35 @@ img {
 
 /* header */
 
-.intestat{
-    height: 80%;
-    padding: auto 0;
+.h80{
+    height: 80px
 }
 
-.header{
-    height: 80px;
-    background-color: rgb(173, 216, 230);
+.flex-head{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
 }
 
+.head-item{
+    width: 25%;
+    padding: 10px 10px;
+    
+}
 
-.link{
+.head-list{
     flex-grow: 1;
-    padding: 19px 250px
+    padding: 10px 230px;
 }
 
-.link > p{
-    display: inline-block;
-    margin: 5px;
-}
+ .head-list > ul li{
+    display: inline;
+    padding: 0px 5px;
+ }
+
+ .login{
+    text-align: end;
+ }
 
 /* main */
 
@@ -124,8 +131,8 @@ img {
 /* footer */
 
 .footer{
-    border-bottom: gray solid 5px ;
-    border-top: gray solid 5px ;
+    border-bottom: gray solid 3px ;
+    border-top: gray solid 3px ;
     height: 80px;
 }
 
